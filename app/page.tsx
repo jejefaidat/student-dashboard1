@@ -1,5 +1,6 @@
 import StudentProfile from "../components/StudentProfile";
 import OverviewCards from "../components/OverviewCards";
+import CourseList from "../components/CourseList";
 export default function Home() {
   return (
     <main>
@@ -21,14 +22,7 @@ export default function Home() {
         <p>Completed assignments: 8</p>
       </section>
 
-      <section>
-        <h2>My Courses</h2>
-        <ul>
-          <li>CSC 201 — Data Structures</li>
-          <li>CSC 203 — Web Development</li>
-          <li>MAT 201 — Discrete Mathematics</li>
-        </ul>
-      </section>
+      <CourseList />
     </main>
   );
 }
