@@ -1,3 +1,4 @@
+import StudentProfile from "../components/StudentProfile";
 export default function Home() {
   return (
     <main>
@@ -6,12 +7,11 @@ export default function Home() {
         <p>Welcome back!</p>
       </header>
 
-      <section>
-        <h2>Student Profile</h2>
-        <p>Name: Ada Okafor</p>
-        <p>Matric Number: STU/2024/001</p>
-        <p>Department: Computer Science</p>
-      </section>
+      <StudentProfile
+        name="Ada Okafor"
+        matricNumber="STU/2024/001"
+        department="Computer Science"
+      />
 
       <section>
         <h2>Assignment Overview</h2>
